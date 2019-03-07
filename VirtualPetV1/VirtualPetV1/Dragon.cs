@@ -7,9 +7,12 @@ namespace VirtualPetV1
 {
     public class Dragon : Pets
     {
-        public Dragon()
+        public Dragon(int Loyalty, int Happiness, int Hunger)
         {
-            throw new System.NotImplementedException();
+            this.loyalty = Loyalty;
+            this.happiness = Happiness;
+            this.hunger = Hunger;
         }
+
     }
 }

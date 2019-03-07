@@ -14,9 +14,5 @@ namespace VirtualPetV1
             this.hunger = Hunger;
         }
 
-        public override string Stats()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
