@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8BBB7C61-025E-41CE-817D-81065DCE961F}</ProjectGuid>
+    <ProjectGuid>{F4401EE3-6236-4628-B14A-84E22EB04561}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>VirtualPetV1</RootNamespace>
     <AssemblyName>VirtualPetV1</AssemblyName>
@@ -43,11 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dog.cs" />
+    <Compile Include="Dragon.cs" />
+    <Compile Include="Panda.cs" />
+    <Compile Include="Pets.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

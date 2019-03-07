@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace VirtualPetV1
 {
-    class Program
+    public class Dragon : Pets
     {
-        static void Main(string[] args)
+        public Dragon()
         {
+            throw new System.NotImplementedException();
         }
     }
 }

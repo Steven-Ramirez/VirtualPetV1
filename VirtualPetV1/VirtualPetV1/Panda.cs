@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace VirtualPetV1
 {
-    class Program
+    public class Panda : Pets
     {
-        static void Main(string[] args)
+        public Panda()
         {
+            throw new System.NotImplementedException();
         }
     }
 }
