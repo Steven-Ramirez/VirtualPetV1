@@ -7,5 +7,9 @@ namespace VirtualPetV1
 {
     public class Treats : Items
     {
+        public Treats()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

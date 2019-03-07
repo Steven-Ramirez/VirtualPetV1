@@ -7,5 +7,16 @@ namespace VirtualPetV1
 {
     public class Toy : Items
     {
+
+
+        public Toy()
+        {
+
+        }
+
+        public void toyList()
+        {
+            Items.items.Add(new Items { loyaltyPoints = 10, happinessPoints = 10 });
+        }
     }
 }

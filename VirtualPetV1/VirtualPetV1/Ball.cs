@@ -7,5 +7,9 @@ namespace VirtualPetV1
 {
     public class Ball : Items
     {
+        public Ball()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

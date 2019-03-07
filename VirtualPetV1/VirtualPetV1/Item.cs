@@ -5,13 +5,12 @@ using System.Text;
 
 namespace VirtualPetV1
 {
-    public abstract class Items : Pets
+    public class Items : Pets
     {
         public int loyaltyPoints;
         public int happinessPoints;
         public int hungerPoints;
 
-        public abstract string ItemList();
 
         public Items()
         {
