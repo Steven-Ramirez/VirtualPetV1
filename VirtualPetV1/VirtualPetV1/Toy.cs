@@ -7,16 +7,19 @@ namespace VirtualPetV1
 {
     public class Toy : Items
     {
-
-
-        public Toy()
+        public Toy(string Name, int Happiness, int Loyalty)
         {
-
+            this.itemName = Name;
+            this.happinessPoints = Happiness;
+            this.loyaltyPoints = Loyalty;
         }
 
-        public void toyList()
+        public override string About()
         {
-            Items.items.Add(new Items { loyaltyPoints = 10, happinessPoints = 10 });
+            string s = base.About();
+            s += $"{this.name} will give your pet {this.happinessPoints} happiness points and {this.loyaltyPoints} loyalty points";
+            return s;
+
         }
     }
 }

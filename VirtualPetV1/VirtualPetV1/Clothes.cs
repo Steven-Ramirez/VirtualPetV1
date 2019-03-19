@@ -7,9 +7,17 @@ namespace VirtualPetV1
 {
     public class Clothes : Items
     {
-        public Clothes()
+        public Clothes(string Name, int Happiness)
         {
-            throw new System.NotImplementedException();
+            this.itemName = name;
+            this.happinessPoints = Happiness;
+        }
+
+        public override string About()
+        {
+            string s = base.About();
+            s += $"{this.itemName} will give your pet {this.happinessPoints} happiness points";
+            return s;
         }
     }
 }

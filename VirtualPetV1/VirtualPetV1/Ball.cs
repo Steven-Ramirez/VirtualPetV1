@@ -7,9 +7,17 @@ namespace VirtualPetV1
 {
     public class Ball : Items
     {
-        public Ball()
+        public Ball(string Name, int Happiness)
         {
-            throw new System.NotImplementedException();
+            this.itemName = Name;
+            this.happinessPoints = Happiness;
+        }
+
+        public override string About()
+        {
+            string s = base.About();
+            s += $"{this.itemName} will give you {this.happinessPoints} happiness points.";
+            return s;
         }
     }
 }

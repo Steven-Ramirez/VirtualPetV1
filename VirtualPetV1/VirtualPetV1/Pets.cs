@@ -5,7 +5,7 @@ using System.Text;
 
 namespace VirtualPetV1
 {
-    public class Pets
+    public abstract class Pets
     {
         public int loyalty;
         public int happiness;
